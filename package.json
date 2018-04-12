@@ -1,0 +1,28 @@
+{
+  "name": "linted",
+  "version": "0.0.1",
+  "description": "",
+  "main": "tslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mortimr/linted.git"
+  },
+  "keywords": [
+    "tslint",
+    "airbnb",
+    "typescript",
+    "typedefs"
+  ],
+  "author": "Iulian Rotaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mortimr/linted/issues"
+  },
+  "homepage": "https://gitlab.com/mortimr/linted#README",
+  "dependencies": {
+    "tslint-config-airbnb": "^5.8.0"
+  }
+}
