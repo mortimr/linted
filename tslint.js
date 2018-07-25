@@ -14,9 +14,7 @@ module.exports = {
       "array-destructuring"
     ],
     "unified-signatures": true,
-    "no-inferrable-types": [true, "ignore-params"],
     "no-internal-module": true,
-    "no-magic-numbers": true,
     "no-namespace": true,
     "no-non-null-assertion": true,
     "no-reference": true,
@@ -71,7 +69,7 @@ module.exports = {
     "arrow-parens": true,
     "arrow-return-shorthand": [true, "multiline"],
     "class-name": true,
-    "no-trailing-whitespace": [true, "ignore-comments", "ignore-jsdoc"]
+    "no-trailing-whitespace": [true, "ignore-comments", "ignore-jsdoc", "ignore-blank-lines", "ignore-template-strings"]
   },
 
   rulesDirectory: [
