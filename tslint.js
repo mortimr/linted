@@ -43,7 +43,6 @@ module.exports = {
     ],
     "unified-signatures": true,
     "max-classes-per-file": [true, 1],
-    "import-spacing": true,
     "semicolon": [true, "always"],
     "whitespace": [
       true,
