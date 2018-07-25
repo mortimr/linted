@@ -13,6 +13,7 @@ module.exports = {
       "object-destructuring",
       "array-destructuring"
     ],
+    "unified-signatures": true,
     "no-inferrable-types": [true, "ignore-params"],
     "no-internal-module": true,
     "no-magic-numbers": true,
@@ -58,10 +59,20 @@ module.exports = {
       "check-preblock",
       "check-type-operator",
       "check-rest-spread",
-    ]
+    ],
+    "eofline": true,
+    "no-consecutive-blank-lines": true,
+    "quotemark": [true, "single", "jsx-single"],
+    "curly": [true, "ignore-same-line"],
+    "no-duplicate-switch-case": true,
+    "no-duplicate-super": true,
+    "triple-equals": [true, "allow-undefined-check", "allow-null-check"],
+    "prefer-const": [true, {"destructuring": "all"}],
+    "arrow-parens": true,
+    "arrow-return-shorthand": [true, "multiline"],
+    "class-name": true,
+    "no-trailing-whitespace": [true, "ignore-comments", "ignore-jsdoc"]
   },
-  "eofline": true,
-  "no-consecutive-blank-lines": true,
 
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-config-airbnb')), './')
