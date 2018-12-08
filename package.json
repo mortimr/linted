@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/mortimr/linted.git"
+    "url": "git+https://github.com/mortimr/linted.git"
   },
   "keywords": [
     "tslint",
@@ -19,9 +19,9 @@
   "author": "Iulian Rotaru",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/mortimr/linted/issues"
+    "url": "https://github.com/mortimr/linted/issues"
   },
-  "homepage": "https://gitlab.com/mortimr/linted#README",
+  "homepage": "https://github.com/mortimr/linted",
   "dependencies": {
     "tslint-config-airbnb": "^5.8.0"
   }
